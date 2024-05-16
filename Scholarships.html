@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title></title>
+<style type="text/css">
+.inline {
+    background-color:ash;
+    display: flex;
+    font-size:20px;
+    box-shadow: 0px 4px 8px black;
+    justify-content: space-around;
+    margin-bottom: 30px;}
+h1 {
+color:black;
+text-align: center;
+border:2px solid teal;
+border-radius: 3px;
+}
+
+h2{
+text-align: center;
+}
+
+.paragraph1 {
+font-size: 19px;
+text-align: justify;
+text-justify:inter-word;
+
+
+}
+.benefits {
+
+text-align: justify;
+}
+
+.benefits li {
+font-size: 18px;
+
+}
+
+.FAQ #h3 {
+text-align: center;
+
+}
+
+
+.FAQ {
+font-size:16px;
+text-align:justify;
+padding:5px;
+
+}
+
+.question #Que{
+height: 50px;
+width: 200px;
+
+}
+
+.question #email {
+height: 25px;
+width: 150px;
+
+}
+
+footer {
+margin-top:20px;
+text-align: center;
+
+}
+
+a {
+text-decoration:none;
+}
+
+#font a{
+color: black
+}
+
+#auto-biography p{
+color:teal;
+
+}
+
+footer p{
+Color: teal;
+font-size:22px;
+letter-spacing: 13px;
+
+}
+
+input[type="submit"] ,input[Type="button"]{
+color: teal;
+border-radius:10px;
+
+}
+
+input[type="email"]:focus{
+outline: none; 
+border-color: teal; 
+box-shadow: 0px 0px 5px rgba(52, 152, 219,0.7);
+}
+
+
+input[type="email"]:not(:placeholder-shown) {
+  background-color: #ecf0f1;
+  border-radius: 50px;
+}
+
+textarea:focus {
+outline: none;
+border: 2px solid teal;
+border-radius: 10px;
+}
+
+textarea:not(:placeholder-shown) {
+background-color: #ecf0f1;
+box-shadow: 0px 0px 5px rgba( 52, 152, 219, 0.5);
+border-radius: 15px;
+
+}
+</style>
+
+</head>
+<body>
+<div class="inline">
+<p id="font"> <a href="Portfolio.html" >Josiv </a> </p>
+<a id="auto-biography" target="_blank" href="Second_page.html" >
+ <p> Auto-biography</p>
+ </a>
+
+</div>
+<h1> Scholarships and benefits we offer</h1>
+<div class="paragraph1"> 
+The A.J Scholarship programme aims to empower young leaders in Africa, providing financial support and mentorship
+ to outstanding individuals who demonstrate academic excellence, leadership potential, and a commitment to community service. 
+This scholarship not only invests in education but also fosters a network of future leaders dedicated to creating positive
+ change in their communities and beyond. As recipients of the A.J Scholarship, students embark on a transformative journey,
+  gaining the skills and knowledge necessary to contribute meaningfully to society.
+</div>
+
+<h2> Benefits our members enjoy </h2>
+
+
+<div class="benefits">
+<ul>
+<li>Financial Relief: Scholarships in technology provide financial support, alleviating the economic burden associated with education.</li>
+
+<li>Mentorship and Networking: Many programs offer mentorship and networking opportunities, connecting students with industry experts for guidance and career insights.</li>
+
+<li>Exposure to Cutting-edge Technologies: Scholars gain exposure to the latest advancements in technology, staying ahead of industry trends and developments.</li>
+
+<li> Real-world Project Experience: Participation in technology scholarship programs often involves hands-on projects, enhancing practical skills and problem-solving abilities.</li>
+
+<li>Preparation for Industry Careers: The combination of financial support, mentorship, and practical experience prepares students for successful and impactful careers in the dynamic technology sector.</li>
+
+</div>
+
+<div class="FAQ">
+<h3 id="h3"> <u> Frequently asked questions (FAQ) </u> </h3>
+<ul>
+<li> How do I apply for the scholarship?</li>
+<ul>  <li>   Visit the official scholarship website for application details and submission instructions. Be sure to check the eligibility criteria before applying.</li></ul>
+
+<li> What are the eligibility requirements?</li>
+ <ul>  <li> Eligibility criteria vary, but common factors include academic merit, financial need, and a genuine interest or pursuit in the specified field. Check the scholarship guidelines for specific requirements.</li> </ul>
+
+<li> When is the application deadline?</li>
+<ul>   <li> Deadlines are typically specified on the scholarship website. Make sure to submit your application before the stated deadline to be considered.</li></ul>
+
+<li> How are scholarship recipients selected?</li>
+<ul>   <li> Selection processes often involve a combination of academic achievements, personal statements, recommendation letters, and, in some cases, interviews. Review the selection criteria outlined by the scholarship provider.</li></ul>
+
+<li> Is the scholarship renewable?</li>
+<ul>   <li> Some scholarships are renewable for multiple years, while others are one-time awards. Check the terms and conditions to understand whether the scholarship can be renewed and any requirements for renewal.</li></ul>
+
+<li> Can international students apply?</li>
+<ul>   <li> The eligibility of international students varies among scholarships. Confirm whether the scholarship is open to international applicants or restricted to specific regions.</li></ul>
+
+<li> What is the scholarship amount?</li>
+<ul>   <li> The scholarship amount can vary widely. Check the scholarship details for information on the monetary award, and whether it covers tuition, living expenses, or both.</li></ul>
+
+<li> Are there any post-award obligations?</li>
+<ul>   <li> Some scholarships may have post-award requirements, such as maintaining a certain GPA, participating in community service, or providing updates on academic progress. Be aware of any commitments associated with receiving the scholarship.</li></ul>
+<br>
+</ul>
+</div>
+Always refer to the official scholarship guidelines and contact the scholarship provider directly if you have specific questions not addressed in the FAQs.
+
+
+<br>
+<br>
+
+
+<div class="question">
+If you have any question fill in the text box below and fill in the email box for response.
+<br> <br>
+<form>
+<label for="Que">  Fill in your question: </label> 
+<br> <br>
+<textarea rows="5" cols="5" id="Que" name="question" placeholder="Question goes in here" required></textarea>
+<br> <br>
+<label for="email"> Email:</label>
+<input type="email" placeholder="example@email.com" name="email" id="email">
+<a href="https://googleforms.com" id="submit">
+<input type="submit"  onclick="alert('Submitted Succesfully')";>
+</a>
+
+
+</form>
+</div>
+
+<footer>
+ <p> &copy;JOSEPH ADENUSI </p>
+ 
+ 
+ <a href="#" >Back to top </a></footer>
+</body>
+</html>
